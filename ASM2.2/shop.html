@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Cửa Hàng Bánh Ngọt</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Bakery</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Trang Chủ</a></li>
+        <li><a href="shop.html">Cửa Hàng</a></li>
+        <li><a href="about.html">Giới Thiệu</a></li>
+      </ul>
+    </nav>
+    <div class="header-icons">
+      <a href="#" class="icon-search"><i class="fas fa-search"></i></a>
+      <a href="#" class="icon-cart"><i class="fas fa-shopping-cart"></i></a>
+      <a href="#" class="icon-user"><i class="fas fa-user"></i></a>
+    </div>
+  </header>
+
+  <div class="shop-container">
+    <div class="shop-title">
+      <h1>The Bakery</h1>
+    </div>
+
+    <section class="categories-section">
+      <div class="section-header">
+        <h2>Danh Mục</h2>
+        <span class="view-all" id="view-all-categories">Xem tất cả</span>
+      </div>
+      <div class="category-items">
+        <div class="category-item" data-category="banhkem">
+          <img src="uploads/Banhkem/banhkemsuatuoi01.jpg" alt="Bánh Kem">
+          <h3>Bánh Kem</h3>
+        </div>
+        <div class="category-item" data-category="banhmi">
+          <img src="uploads/Banhmi/banhmisuadua01.jpg" alt="Bánh Mì">
+          <h3>Bánh Mì</h3>
+        </div>
+        <div class="category-item" data-category="banhcookie">
+          <img src="uploads/Banh cookie/banhcookiedua01.png" alt="Bánh Cookie">
+          <h3>Bánh Cookie</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="products-section">
+      <div class="section-header">
+        <h2>Sản Phẩm</h2>
+        <span class="view-all" id="view-all-products">Xem tất cả</span>
+      </div>
+      <div class="product-items" id="product-container">
+        <!-- Bánh Kem -->
+        <div class="product-item" data-type="banhkem">
+          <img src="uploads/Banhkem/banhkemsuatuoi01.jpg" alt="Bánh Kem Sữa Tươi">
+          <h3>Bánh Kem Sữa Tươi</h3>
+          <p class="price">380.000đ</p>
+        </div>
+        <div class="product-item" data-type="banhkem">
+          <img src="uploads/Banhkem/banhkemtiramisu02.jpg" alt="Bánh Kem Tiramisu">
+          <h3>Bánh Kem Tiramisu</h3>
+          <p class="price">425.000đ</p>
+        </div>
+        <div class="product-item" data-type="banhkem">
+          <img src="uploads/Banhkem/banhkembap03.jpg" alt="Bánh Kem Bắp">
+          <h3>Bánh Kem Bắp</h3>
+          <p class="price">365.000đ</p>
+        </div>
+        <div class="product-item" data-type="banhkem">
+          <img src="uploads/Banhkem/banhkemchobe04.jpg" alt="Bánh Kem Chó Bé">
+          <h3>Bánh Kem Cho Bé</h3>
+          <p class="price">390.000đ</p>
+        </div>
+        <div class="product-item" data-type="banhkem">
+          <img src="uploads/Banhkem/banhkemcapybara05.jpg" alt="Bánh Kem Capybara">
+          <h3>Bánh Kem Capybara</h3>
+          <p class="price">450.000đ</p>
+        </div>
+
+        <!-- Bánh Mì -->
+        <div class="product-item" data-type="banhmi">
+          <img src="uploads/Banhmi/banhmisuadua01.jpg" alt="Bánh Mì Sữa Dừa">
+          <h3>Bánh Mì Sữa Dừa</h3>
+          <p class="price">25.000đ</p>
+        </div>
+        <div class="product-item" data-type="banhmi">
+          <img src="uploads/Banhmi/banhmijambon02.jpg" alt="Bánh Mì Jambon">
+          <h3>Bánh Mì Jambon</h3>
+          <p class="price">30.000đ</p>
+        </div>
+        <div class="product-item" data-type="banhmi">
+          <img src="uploads/Banhmi/banhmihotgaphomai03.jpg" alt="Bánh Mì Hot Ga Phomai">
+          <h3>Bánh Mì Hotdog Phomai</h3>
+          <p class="price">35.000đ</p>
+        </div>
+        <div class="product-item" data-type="banhmi">
+          <img src="uploads/Banhmi/banhmichabongbo04.jpg" alt="Bánh Mì Chà Bông Bơ">
+          <h3>Bánh Mì Chà Bông Bơ</h3>
+          <p class="price">28.000đ</p>
+        </div>
+        <div class="product-item" data-type="banhmi">
+          <img src="uploads/Banhmi/banhmihakido05.jpg" alt="Bánh Mì Haki Đỏ">
+          <h3>Bánh Mì Haki Đỏ</h3>
+          <p class="price">32.000đ</p>
+        </div>
+
+        <!-- Bánh Cookie -->
+        <div class="product-item" data-type="banhcookie">
+          <img src="uploads/Banh cookie/banhcookiedua01.png" alt="Bánh Cookie Dừa">
+          <h3>Bánh Cookie Dừa</h3>
+          <p class="price">45.000đ</p>
+        </div>
+        <div class="product-item" data-type="banhcookie">
+          <img src="uploads/Banh cookie/banhcookiedongtien02.png" alt="Bánh Cookie Đồng Tiền">
+          <h3>Bánh Cookie Đồng Tiền</h3>
+          <p class="price">50.000đ</p>
+        </div>
+        <div class="product-item" data-type="banhcookie">
+          <img src="uploads/Banh cookie/banhcookieduavasocola03.png" alt="Bánh Cookie Dừa Sô-cô-la">
+          <h3>Bánh Cookie Dừa Sô-cô-la</h3>
+          <p class="price">55.000đ</p>
+        </div>
+        <div class="product-item" data-type="banhcookie">
+          <img src="uploads/Banh cookie/banhcookiesetquatetlocxuan04.png" alt="Bánh Cookie Tết Lộc Xuân">
+          <h3>Bánh Cookie Tết Lộc Xuân</h3>
+          <p class="price">60.000đ</p>
+        </div>
+        <div class="product-item" data-type="banhcookie">
+          <img src="uploads/Banh cookie/banhcookiesetquatetankhang05.png" alt="Bánh Cookie Tết An Khang">
+          <h3>Bánh Cookie Tết An Khang</h3>
+          <p class="price">65.000đ</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

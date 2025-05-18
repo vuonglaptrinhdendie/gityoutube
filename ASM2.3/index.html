@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kết quả xổ số TP.HCM</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Kết quả xổ số TP.HCM</h2>
+    <h3><i class="far fa-calendar-alt"></i> Thứ Hai 10-05-2025</h3>
+
+    <table>
+      <tr><th>Giải</th><th>Kết quả</th></tr>
+      <tr><td>Đặc biệt</td><td id="db">879451</td></tr>
+      <tr><td>Giải nhất</td><td>22310</td></tr>
+      <tr><td>Giải nhì</td><td>84659</td></tr>
+      <tr><td>Giải ba</td><td>36295 - 04057</td></tr>
+      <tr><td>Giải tư</td><td>79800 - 76976 - 92144 - 37652 - 66478 - 73534 - 53162</td></tr>
+      <tr><td>Giải năm</td><td>2713</td></tr>
+      <tr><td>Giải sáu</td><td>7275 - 8839 - 8703</td></tr>
+      <tr><td>Giải bảy</td><td>777</td></tr>
+      <tr><td>Giải tám</td><td>35</td></tr>
+    </table>
+
+    <div class="checker">
+      <label for="ve"><i class="fas fa-ticket-alt"></i> Nhập số vé của bạn để dò (6 chữ số):</label>
+      <input type="text" id="ve" placeholder="Nhập 6 chữ số" maxlength="6" inputmode="numeric" pattern="[0-9]{6}">
+      <button onclick="doSo()">Dò số</button>
+      <p class="note">Lưu ý: Vé số phải đủ 6 chữ số mới hợp lệ</p>
+      <p id="ketqua"></p>
+    </div>
+    
+    <footer>
+      <p>&copy; 2025 Xổ Số TP.HCM - Cập nhật kết quả hàng ngày</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
